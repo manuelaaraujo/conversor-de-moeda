@@ -8,32 +8,33 @@
 </head>
 <body>
     <div class="container">
-        <h1>Conversor de Moedas</h1>
+        <h2>Conversor de Moedas</h2>
         <form id="currency-form">
+ 
             <div class="input-group">
                 <label for="amount">Valor:</label>
                 <input type="number" id="amount" placeholder="0" required>
             </div>
             <div class="input-group">
-                <label for="daMoeda">De:</label>
-                <select id="daMoeda" required>
-                    <option value="USD">Dólar (USD)</option>
-                    <option value="EUR">Euro (EUR)</option>
-                    <option value="BRL">Real (BRL)</option>
+                <label for="damoeda">De:</label>
+                <select id="damoeda" required>
+                    <option value="USD">Dólar</option>
+                    <option value="EUR">Euro</option>
+                    <option value="BRL">Real</option>
                 </select>
             </div>
             <div class="input-group">
-                <label for="paraMoeda">Para:</label>
-                <select id="ParaMoeda" required>
-                    <option value="USD">Dólar (USD)</option>
-                    <option value="EUR">Euro (EUR)</option>
-                    <option value="BRL">Real (BRL)</option>
+                <label for="paramoeda">Para:</label>
+                <select id="paramoeda" required>
+                    <option value="USD">Dólar</option>
+                    <option value="EUR">Euro</option>
+                    <option value="BRL">Real</option>
                 </select>
             </div>
             <button type="submit">Converter</button>
             <button type="button" id="reset">Resetar</button>
         </form>
-        <div id="result" class="result"></div>
+        <div id="conversao" class="result"></div>
     </div>
     <script src="conversor.js"></script>
 </body>
