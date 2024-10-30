@@ -60,7 +60,13 @@ Ao enviar o formulário, ele captura o valor inserido e as moedas selecionadas, 
 
 ## `Resultado`
 
+![](img/resultado.gif)
+
 ## `Fontes`
+ 
+[Mdn Web Docs](https://developer.mozilla.org/pt-BR/)
+
+[Chat GPT](https://chatgpt.com/)
 
 ## `Autora`
 [Manuela Araujo dos Santos](https://github.com/manuelaaraujo)
